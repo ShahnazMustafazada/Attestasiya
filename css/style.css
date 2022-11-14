@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-image: url("../img/kristen-ryan-incredible-sky-photos.jpg");
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  height: 100px;
+}
+
+.logo {
+  width: 30%;
+}
+
+h1{
+    font-size: 40px;
+}
+.menu {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 40px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > h1{
+    margin-bottom: 100px;
+}
+
+
